@@ -13,7 +13,7 @@
      <routeContextRef ref="jocataController" />
 	<camelContext id="CreditVidyaFrontEnd" xmlns="http://camel.apache.org/schema/spring">
 		<routeContextRef ref="CommonLogRoutes" />
-		<routeContextRef ref="GenericErrorAndRetryHandler" />
+		<routeContextRef ref="GenericexitErrorAndRetryHandler" />
 		<routeContextRef ref="HeaderValidationRoutes" />
         <routeContextRef ref="ControllerValidationRoutes" />
 		<dataFormats>
@@ -37,6 +37,9 @@
 			</get>
 			<post consumes="application/json" path="/emailValidation">
 				<to uri="direct:emailValidation-route" />
+			</post>
+			<post consumes="application/json" path="/verifyData">
+				<to uri="direct:verifyData-route" />
 			</post>
 
 		</rest>
