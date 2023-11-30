@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+fy<?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:cxf="http://camel.apache.org/schema/cxf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 						http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
@@ -7,7 +7,7 @@
 	<import resource="ErrorRetryHandlerRouteContext.xml" />
 	<import resource="HeaderValidationRouteContext.xml" />
 <import resource="nameValidationContext.xml" />
-<routeContextRef ref="HomeValidationRoutes" />
+<routeContextRef ref="verifyValidationRoutes" />
 <routeContextRef ref="IndexController" />
      <routeContextRef ref="PageController" />
 <routeContextRef ref="EsignController" />
