@@ -6,7 +6,10 @@
 	<import resource="loggerroutercontext.xml" />
 	<import resource="ErrorRetryHandlerRouteContext.xml" />
 	<import resource="HeaderValidationRouteContext.xml" />
-<routeContextRef ref="HomeValidationRoutes" />
+    <routeContextRef ref="HomeValidationRoutes" />
+     <routeContextRef ref="IndexController" />
+     <routeContextRef ref="PageController" />
+      <routeContextRef ref="HomeValidationRoutes" />
 	<camelContext id="CreditVidyaFrontEnd" xmlns="http://camel.apache.org/schema/spring">
 		<routeContextRef ref="CommonLogRoutes" />
 		<routeContextRef ref="GenericErrorAndRetryHandler" />
