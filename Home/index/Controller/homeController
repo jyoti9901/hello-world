@@ -7,13 +7,10 @@
 	<import resource="ErrorRetryHandlerRouteContext.xml" />
 	<import resource="HeaderValidationRouteContext.xml" />
 <routeContextRef ref="HomeValidationRoutes" />
-<<<<<<< HEAD
 <routeContextRef ref="IndexController" />
      <routeContextRef ref="PageController" />
-=======
 <routeContextRef ref="EsignController" />
      <routeContextRef ref="jocataController" />
->>>>>>> 1de654285669ab2ddce875fb3265ef089b577eab
 	<camelContext id="CreditVidyaFrontEnd" xmlns="http://camel.apache.org/schema/spring">
 		<routeContextRef ref="CommonLogRoutes" />
 		<routeContextRef ref="GenericErrorAndRetryHandler" />
