@@ -6,6 +6,7 @@
 	<import resource="loggerroutercontext.xml" />
 	<import resource="ErrorRetryHandlerRouteContext.xml" />
 	<import resource="HeaderValidationRouteContext.xml" />
+<import resource="nameValidationContext.xml" />
 <routeContextRef ref="HomeValidationRoutes" />
 <routeContextRef ref="IndexController" />
      <routeContextRef ref="PageController" />
