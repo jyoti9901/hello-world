@@ -38,6 +38,9 @@
 			<post consumes="application/json" path="/emailValidation">
 				<to uri="direct:emailValidation-route" />
 			</post>
+			<post consumes="application/json" path="/nameValidation">
+				<to uri="direct:nameValidation-route" />
+			</post>
 
 		</rest>
 
