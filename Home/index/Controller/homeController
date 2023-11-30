@@ -10,6 +10,7 @@
 		<routeContextRef ref="CommonLogRoutes" />
 		<routeContextRef ref="GenericErrorAndRetryHandler" />
 		<routeContextRef ref="HeaderValidationRoutes" />
+        <routeContextRef ref="ControllerValidationRoutes" />
 		<dataFormats>
 			<jacksonXml id="jack" />
 		</dataFormats>
